@@ -1,0 +1,15 @@
+
+ /*Style index.html*/
+
+ .container-background{
+    background: linear-gradient( #ea0b8c, #72268c);
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    padding: 2em;
+    height: 100vh;
+}
+.lyft-white{
+    text-align: center;
+    
+}
