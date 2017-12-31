@@ -7,6 +7,8 @@
 * Se realizará 7 vistas tanto para mobile y desktop.
 ## Producto final
 
+   ![Lyft](assets/img/lyft.gif)
+
 ## Paginas consultadas
 
 * https://www.w3schools.com/
