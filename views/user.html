@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	 <!--Import Bootstrap.css-->
+	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<!-- tab icon -->
+	<link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+	<!--font-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!--Css-->
+	<link rel="stylesheet" href="../css/main.css">
+	<title>Lyft</title>
+</head>
+<!-- signup -->
+<body>
+    <!--Seccion  de titulo y subtitulo e icono volver atras-->
+    <section>
+        <div class="container-fluid">
+                <div class="row ">
+                        <!--mobile-->
+                        <div class="col-xs-12 col-sm-12 signup visible-xs text-left">
+                            <a href="verify.html" class="before-page"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></a>
+                            <h2 align="center">Sign up</h2>
+                            <h4 align="center">Join now free ride credit</h4>
+                            <hr>
+                        </div>
+                        <!--desktop-->
+                        <div class="col-lg-12 col-md-12 signup hidden-xs text-left">
+                                <a href="register.html" class="before-page"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></a>
+                                <h1 align="center">Sign up</h1>
+                                <h3 align="center">Join now free ride credit</h3>
+                                <hr>
+                        </div>
+                </div>
+        </div>
+    </section>
+    <section>
+            <form class="col-xs-12">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                      <input id="name" type="text" class="form-control" name="email" placeholder="Name" pattern="[A-Za-z]">
+                      <input id="last-name" type="text" class="form-control" name="email" placeholder="Last name" pattern="[A-Za-z]">
+                    </div>
+                    <br>
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                      <input id="email" type="email" class="form-control" name="email" placeholder="Email">
+                    </div>
+                    <div id="error-message"></div>
+                    <div class="checkbox " align=center>
+                            <label>
+                                <input type="checkbox"> I agree to Lyft <a href="">Terms of service</a> 
+                            </label>
+                    </div>
+                    
+            </form>
+            <div class ="col-xs-6 col-xs-offset-3">
+                    <button type="button" id="button-next" class="btn btn-default center-block button-lyft btn-block buttons"  disabled = "true"> NEXT </button>
+            </div>
+    </section> 
+   
+        
+        <!-- Import jQuery-->
+        <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+        <script src="../js/user.js"></script>
+        <!-- bootstrap -->
+        <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

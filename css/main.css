@@ -1,4 +1,13 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+	font-family: 'Raleway', sans-serif !important;
+	
+}
+ 
  /*Style index.html*/
 
  .container-background{
@@ -13,8 +22,11 @@
     text-align: center;
     
 }
-
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
 /*Style register.html*/
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Style img-background*/
 .background-lyft{
     background-image: url(../assets/img/fondo.jpg);
     background-repeat: no-repeat;
@@ -24,6 +36,107 @@
     width: 100%;
     display: flex;
 	flex-direction: column;
-	
+}
+/*Style buttons-mobile*/
+.container-buttons{
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50%;
+}
+/*Style butonns-desktop*/
+.container-buttons-desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20%;
     
+}
+/*Seperation buttons-desktop*/
+.container-buttons-desktop .button-lyft{
+    margin-top: 20%;
+    
+}
+.button-lyft{
+    background: linear-gradient(to right,#72268c 20%,#d90372 80%, #ea0b8c 100%  ); 
+    
+    border: none;
+    letter-spacing: 0.1em;
+    font-size: 2em;
+    color: white;
+   
+}
+.buttons a:hover{
+    color: black; 
+}
+/*------------------------------------------------------------------------------/
+/*Style signup*/
+.before-page{
+  color: #d90372;
+  
+}
+.fa-chevron-left{
+    margin-top: 1em;
+}
+.signup h2, h1{
+    margin-top: 0;
+}
+/*Style signup*/
+.container-country{
+    display: flex;
+	flex-direction: row;
+    justify-content: center;
+    
+}
+.container-country img{
+    width: 3.5em;
+    height: 2.5em;
+    
+}
+.text{
+    margin-top: 2em;
+    margin-bottom: 14em;
+}
+.center{
+    text-align: center;
+}
+/*Style verify.html*/
+.verify-lab{
+    display: flex;
+	flex-direction: row;
+    justify-content: center;
+}
+
+.verify h3, h1{
+    margin-top: 0;
+}
+.lala{
+    margin-bottom: 3em;
+}
+.button-resend{
+    background: #F9A6E3; 
+     border: none;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+    color: black;
+    margin-bottom: 14em;
+}
+h1{
+    color:  white;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+}
+/**/
+.container-information{
+    
+    
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    align-items: center;
+
+    color: white;
 }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	 <!--Import Bootstrap.css-->
+	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<!-- tab icon -->
+	<link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+	<!--font-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!--Css-->
+	<link rel="stylesheet" href="../css/main.css">
+	<title>Lyft</title>
+</head>
+<!-- signup -->
+<body>
+    <!--Seccion  de titulo y subtitulo e icono volver atras-->
+    <section>
+        <div class="container-fluid">
+                <div class="row ">
+                        <!--mobile-->
+                        <div class="col-xs-12 col-sm-12 signup visible-xs text-left">
+                            <a href="register.html" class="before-page"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></a>
+                            <h2 align="center">Sign up</h2>
+                            <h4 align="center">Join now free ride credit</h4>
+                            <hr>
+                        </div>
+                        <!--desktop-->
+                        <div class="col-lg-12 col-md-12 signup hidden-xs text-left">
+                                <a href="register.html" class="before-page"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></a>
+                                <h1 align="center">Sign up</h1>
+                                <h3 align="center">Join now free ride credit</h3>
+                                <hr>
+                        </div>
+                </div>
+        </div>
+    </section>
+    <!--Seleccionar pais e ingrear N°celular-->  
+    <section>
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="container-country input-group col-xs-12">
+                            <div class="input-group-btn">
+                                <button id="btn-countries" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Paises
+                                    <span class="caret"></span>
+                                </button>
+                                <!-- Lista de paises con sus códigos-->
+                                <ul id="list-country" class="dropdown-menu stretch">
+                                    <li>
+                                        <a href="#" class="center" data-value="+51"><img src="../assets/img/peru.png" alt="Flag Perú"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="center" data-value="+52"><img src="../assets/img/mexico.png" alt="Flag Mexico"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="center" data-value="+57"><img src="../assets/img/colombia.png" alt="Flag Colombia"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="center"  data-value="+56"><img src="../assets/img/chile.png" alt="Flag Chile"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="center"  data-value="+55"><img src="../assets/img/brasil.png" alt="Flag Brasil"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Para códigos de países-->
+                            <div class="col-xs-3 col-xs-offset-3 col-sm-offset-3 col-md-3">
+                                <input id="code-country" class="form-control text-center" type="text" placeholder="xx" readonly>
+                            </div>
+                            <!-- Ingresar el número de teléfono-->
+                            <div class="col-xs-5 col-md-5">
+                                <input id="input-mobile" type="text" class="form-control text-center"  maxlength="9" placeholder="123456789" disabled = "true">
+                            </div>
+                    </div>
+                    
+                    <div class="text-center text"><h5>We'll send a text to verify your phone</h5></div>
+                    <div class ="col-xs-6 col-xs-offset-3">
+                            <button type="button" id="button-next" class="btn btn-default center-block button-lyft btn-block buttons"  disabled> NEXT </button>
+                    </div>
+                    
+                </div>
+        </div>
+    </section>
+        
+        <!-- Import jQuery-->
+        <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+        <script src="../js/signup.js"></script>
+        <!-- bootstrap -->
+        <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -14,34 +14,46 @@
 	<link rel="stylesheet" href="../css/main.css">
 	<title>Lyft</title>
 </head>
-<!-- signup -->
+<!-- Register -->
 <body class="background-lyft">
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
-                        <img src="../assets/img/logo-pink.png" alt="lyft white" class="img-responsive lyft-white">
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+                            <img src="../assets/img/logo-pink.png" alt="lyft white" class="img-responsive lyft-white">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                            
+        </section>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                        <!--mobile-->
+                        <div class="col-xs-12 visible-xs">
+                                <div class="container-buttons buttons white-text"  align ="center">
+                                    <a href="signup.html" type="button" class="btn btn-default button-lyft" id="signup">Sign up</a>
+                                    <a href="" type="button" class="btn btn-default  button-lyft" id="login">Log in</a>	
+                                </div>	
+                        </div>
+                        <!--desktop-->
+                        <div class="col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5 hidden-xs">
+                                <div class="container-buttons-desktop buttons"  align ="center">
+                                    <a href="signup.html" type="button" class="btn btn-default  button-lyft" id="signup">Sign up</a>
+                                    <a href="" type="button" class="btn btn-default button-lyft" id="login">Log in</a>
+                                    	
+                                </div>	
+                        </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-	
-
-	
-	<!-- Import jQuery-->
-	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
-	<script src="../js/register.js"></script>
-	<!-- bootstrap -->
-	<script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-</body>
+        </section>
+    
+        
+    
+        
+        <!-- Import jQuery-->
+        <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+        <script src="../js/register.js"></script>
+        <!-- bootstrap -->
+        <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    </body>
 </html>
