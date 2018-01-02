@@ -25,7 +25,7 @@ $(document).ready(function() {
   $('#button-next').on('click', function(event) {
     var codeLab = $('#input-code'); 
     var codeEnter = $(codeLab).val();
-    
+    /* Para guardar el codigo */
     if (codeEnter === localStorage.getItem('randomLab')) {
       /* Si codigo es correcto se va a la siguiente vista*/
       window.location.href = 'user.html';
