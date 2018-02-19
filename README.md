@@ -12,7 +12,7 @@ Lyft es una aplicación responsive, que muestra el proceso de registro de un nue
 
 
 
-# Reto 2: Aplicación Lyft
+# Lyft
 
 ## Objetivo
 
