@@ -7,7 +7,7 @@ Lyft es una aplicación responsive, que muestra el proceso de registro de un nue
 ![image](https://user-images.githubusercontent.com/32306054/36365274-d73b4600-1516-11e8-9d80-85717913b6d2.png)
 
 
-# Desarollada para
+# Desarollado para
 [Laboratoria](http://www.laboratoria.la/)
 
 
